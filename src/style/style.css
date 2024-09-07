@@ -11,30 +11,9 @@
 body {
     font-family: 'Manrope';
     color: #FFF;
-    background-color: #000;
+    background-color: #171A24;
 }
 
-
-header {
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #000;
-}
-
-header .container {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-header img {
-    border-radius: 100%;
-}
 
 
 
