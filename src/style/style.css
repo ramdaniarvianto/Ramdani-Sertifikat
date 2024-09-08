@@ -4,34 +4,57 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-*::selection {
-    background-color: #333;
-}
 
 body {
-    font-family: 'Manrope';
+    font-family: 'Poppins';
+    color: #1B1B1B;
+    background-color: #1B1B1B;
+}
+
+.hilang {
+    padding: 2px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Mulish';
+    color: #BBB;
+    background-color: #292929;
+}
+
+.hilang .close {
+    cursor: pointer;
+    padding: 0 5px;
+    font-family: 'Prompt';
+}
+.hilang .close:hover {
     color: #FFF;
-    background-color: #171A24;
 }
 
+header {
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    padding: 8px 0;
+    text-align: center;
+    color: #FFF;
+    background-color: rgba(27, 27, 27, 0.75);
+    backdrop-filter: blur(10px);
+}
 
-
-
-main {
-    width: 80%;
-    margin: 20px auto;
+main .wrapper {
+    padding: 15px;
+    margin: 20px 50px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
 }
 
-main .sertifikat img {
+main .wrapper img {
     width: 100%;
     height: 100%;
-    border-radius: 8px;
+    border-radius: 10px;
     transition: .2s ease-in-out;
 }
-main .sertifikat img:hover {
+main .wrapper img:hover {
     opacity: 0.8;
 }
-
