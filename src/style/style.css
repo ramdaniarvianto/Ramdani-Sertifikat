@@ -48,7 +48,7 @@ main .wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 15px;
-    background-color: #000;
+    background-color: #292929;
     border-radius: 20px;
 }
 
