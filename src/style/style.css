@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Poppins';
-    color: #1B1B1B;
+    color: #EFEFEF;
     background-color: #1B1B1B;
 }
 
@@ -60,6 +60,24 @@ main .wrapper img {
 }
 main .wrapper img:hover {
     opacity: 0.8;
+}
+
+footer {
+    cursor: default;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    color: #BBB;
+    background-color: #292929;
+}
+
+marquee {
+    display: flex;
+    gap: 200px;
+}
+
+span {
+    padding: 0 10px;
 }
 
 /* Responsive Breakpoints */
