@@ -1,5 +1,5 @@
-const close = document.querySelector('.close');
-close.addEventListener('click', function() {
-    const hilang = document.querySelector('.hilang');
-    hilang.style.display = 'none';
+const hilang = document.querySelector('.silang i');
+hilang.addEventListener('click', function() {
+    const silang = document.querySelector('.silang');
+    silang.style.display = 'none';
 });

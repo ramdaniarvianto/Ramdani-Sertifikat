@@ -11,6 +11,43 @@ body {
     background-color: #181818;
 }
 
+.silang {
+    cursor: default;
+    padding: 2px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+}
+.silang p {
+    animation: klaplip 10s linear infinite;
+}
+@keyframes klaplip {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    75%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.silang i {
+    cursor: pointer;
+    color: #888;
+}
+.silang i:hover {
+    color: #FFF;
+}
+
 /* HEADER */
 header img {
     border-radius: 100%;
