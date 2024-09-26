@@ -26,6 +26,11 @@ header {
     gap: 10px;
 }
 
+header .headInfo {
+    margin-bottom: 10px;
+    color: #AAA;
+}
+
 header .headLinks {
     padding: 10px 25px;
     display: flex;
